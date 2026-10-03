@@ -11,6 +11,7 @@ body {
   width: 100%;
 }
 
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -19,6 +20,7 @@ header {
   background-color: white;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 #logo {
@@ -56,6 +58,7 @@ header .icons #red-dot {
   right: 0;
 }
 
+/* Stories */
 .stories {
   display: flex;
   padding: 0.5rem 1rem;
@@ -95,4 +98,81 @@ header .icons #red-dot {
 .add-story-btn-txt {
   color: #6a717a;
   font-size: 0.75rem;
+}
+
+/* Posts */
+
+.post .post-img {
+  width: 100%;
+}
+
+.post-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.post-info .author-info a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.post-info .author-info img {
+  height: 2rem;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+
+.post-info .author-info span {
+  color: black;
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.post-info .author-info i {
+  color: dodgerblue;
+  font-size: 0.75rem;
+  margin-left: 0.1rem;
+}
+
+.post-info .btns button {
+  border: none;
+  padding: 0.5rem 1rem;
+  color: black;
+  font-weight: 600;
+  background-color: rgb(240, 240, 240);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.post-info .btns i {
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.post-actions-left {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.post-actions-left > i,
+.post-actions-right > i {
+  font-size: 1.45rem;
+  cursor: pointer;
+}
+
+.post-caption {
+  padding: 0.5rem 1rem;
+  font-size: 0.87rem;
 }
