@@ -176,3 +176,25 @@ header .icons #red-dot {
   padding: 0.5rem 1rem;
   font-size: 0.87rem;
 }
+
+.site-footer {
+  padding: 1rem 0;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  gap: 0.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: gray;
+}
